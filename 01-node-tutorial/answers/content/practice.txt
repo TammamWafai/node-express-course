@@ -1,0 +1,2 @@
+Sentence: I'm Tammam a software engineer.
+os.userInfo().username: tom
