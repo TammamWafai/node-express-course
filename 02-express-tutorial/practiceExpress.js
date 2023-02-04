@@ -1,7 +1,9 @@
 const express=require('express')
 const app=express()
 const path=require('path')
+const practiceMiddleware=require('./practice-middleware')
 
+app.use(practiceMiddleware)
 
 app.listen(3000,()=>{
     console.log('Server running...')
