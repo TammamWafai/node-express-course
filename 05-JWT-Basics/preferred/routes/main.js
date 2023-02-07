@@ -5,7 +5,7 @@ const { login, dashboard } = require('../controllers/main')
 
 const authMiddleware = require('../middleware/auth')
 
-router.route('/dashboard').get(authMiddleware, dashboard)
-router.route('/login').post(login)
+router.route('/hello').get(authMiddleware, dashboard)
+router.route('/logon').post(login)
 
 module.exports = router
